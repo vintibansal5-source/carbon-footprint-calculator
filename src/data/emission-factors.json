@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "factors": {
+    "car.petrol": {
+      "id": "car.petrol",
+      "value": 0.192,
+      "unit": "kg CO2e/km",
+      "source": "DEFRA 2023 Greenhouse Gas Reporting: Conversion Factors",
+      "version": "1.0.0"
+    },
+    "car.diesel": {
+      "id": "car.diesel",
+      "value": 0.171,
+      "unit": "kg CO2e/km",
+      "source": "DEFRA 2023 Greenhouse Gas Reporting: Conversion Factors",
+      "version": "1.0.0"
+    },
+    "car.electric": {
+      "id": "car.electric",
+      "value": 0.053,
+      "unit": "kg CO2e/km",
+      "source": "DEFRA 2023 Greenhouse Gas Reporting: Conversion Factors",
+      "version": "1.0.0"
+    },
+    "car.hybrid": {
+      "id": "car.hybrid",
+      "value": 0.105,
+      "unit": "kg CO2e/km",
+      "source": "DEFRA 2023 Greenhouse Gas Reporting: Conversion Factors",
+      "version": "1.0.0"
+    },
+    "publicTransport": {
+      "id": "publicTransport",
+      "value": 0.089,
+      "unit": "kg CO2e/km",
+      "source": "DEFRA 2023 Greenhouse Gas Reporting: Conversion Factors",
+      "version": "1.0.0"
+    },
+    "flight": {
+      "id": "flight",
+      "value": 255,
+      "unit": "kg CO2e/flight",
+      "source": "DEFRA 2023 Greenhouse Gas Reporting: Conversion Factors",
+      "version": "1.0.0"
+    },
+    "electricity.grid": {
+      "id": "electricity.grid",
+      "value": 0.233,
+      "unit": "kg CO2e/kWh",
+      "source": "IEA 2023 Electricity Information: Overview",
+      "version": "1.0.0"
+    },
+    "electricity.renewable": {
+      "id": "electricity.renewable",
+      "value": 0.020,
+      "unit": "kg CO2e/kWh",
+      "source": "IEA 2023 Electricity Information: Overview",
+      "version": "1.0.0"
+    },
+    "electricity.mixed": {
+      "id": "electricity.mixed",
+      "value": 0.126,
+      "unit": "kg CO2e/kWh",
+      "source": "IEA 2023 Electricity Information: Overview",
+      "version": "1.0.0"
+    },
+    "diet.meat-heavy": {
+      "id": "diet.meat-heavy",
+      "value": 3300,
+      "unit": "kg CO2e/year",
+      "source": "Poore & Nemecek 2018 - Reducing food's environmental impacts through producers and consumers, Science",
+      "version": "1.0.0"
+    },
+    "diet.omnivore": {
+      "id": "diet.omnivore",
+      "value": 2500,
+      "unit": "kg CO2e/year",
+      "source": "Poore & Nemecek 2018 - Reducing food's environmental impacts through producers and consumers, Science",
+      "version": "1.0.0"
+    },
+    "diet.vegetarian": {
+      "id": "diet.vegetarian",
+      "value": 1700,
+      "unit": "kg CO2e/year",
+      "source": "Poore & Nemecek 2018 - Reducing food's environmental impacts through producers and consumers, Science",
+      "version": "1.0.0"
+    },
+    "diet.vegan": {
+      "id": "diet.vegan",
+      "value": 1500,
+      "unit": "kg CO2e/year",
+      "source": "Poore & Nemecek 2018 - Reducing food's environmental impacts through producers and consumers, Science",
+      "version": "1.0.0"
+    },
+    "foodWaste": {
+      "id": "foodWaste",
+      "value": 2.5,
+      "unit": "kg CO2e/kg waste/week/year",
+      "source": "WRAP 2021 - The Food Waste Reduction Roadmap Progress Report",
+      "version": "1.0.0"
+    }
+  }
+}

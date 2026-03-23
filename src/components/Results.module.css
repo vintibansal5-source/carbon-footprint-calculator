@@ -1,0 +1,87 @@
+.chartsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1.5rem 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .chartsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Comparison Display */
+.comparisonDisplay {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.fallbackNotice {
+  font-size: 0.85rem;
+  color: #795548;
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.comparisonRow {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.comparisonItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.comparisonLabel {
+  font-size: 0.8rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.comparisonValue {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212121;
+}
+
+.indicator {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+}
+
+.indicatorAbove {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.indicatorBelow {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.indicatorEqual {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.indicatorDiff {
+  font-weight: 400;
+  font-size: 0.85rem;
+}

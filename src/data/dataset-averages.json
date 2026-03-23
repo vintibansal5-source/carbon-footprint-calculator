@@ -1,0 +1,32 @@
+[
+  {
+    "region": "global",
+    "kgCo2ePerYear": 4800,
+    "source": "Our World in Data / Global Carbon Project 2023"
+  },
+  {
+    "region": "US",
+    "kgCo2ePerYear": 14000,
+    "source": "EPA / Our World in Data 2023"
+  },
+  {
+    "region": "EU",
+    "kgCo2ePerYear": 7900,
+    "source": "Eurostat / Our World in Data 2023"
+  },
+  {
+    "region": "UK",
+    "kgCo2ePerYear": 5500,
+    "source": "DEFRA / Our World in Data 2023"
+  },
+  {
+    "region": "China",
+    "kgCo2ePerYear": 8200,
+    "source": "IEA / Our World in Data 2023"
+  },
+  {
+    "region": "India",
+    "kgCo2ePerYear": 1900,
+    "source": "IEA / Our World in Data 2023"
+  }
+]
